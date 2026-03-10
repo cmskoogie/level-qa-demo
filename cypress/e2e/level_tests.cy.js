@@ -30,9 +30,4 @@ describe('Level.me QA Test Suite', () => {
     cy.contains('Job Listings').should('exist')
   })
   
- // INTENTIONALLY FAILING TEST
-  it('This test will fail', () => {
-    cy.visit('https://www.level.me')
-    cy.contains('This text does not exist anywhere').should('be.visible')
-  })
 })
